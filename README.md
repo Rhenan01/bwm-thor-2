@@ -18,24 +18,28 @@ Os resultados mostram que a carteira construída a partir do ranking gerado pelo
    cd bwm-thor-2
    
 2. (Opcional) Crie um ambiente virtual:
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/macOS
+   venv\Scripts\activate     # Windows
 
 3. Instale as dependências:
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. Execute o script principal (ajuste o nome se necessário):
-python main.py
+   ```bash
+   python main.py
 
 📖 Como citar
 Se você usar este código em seu trabalho acadêmico, por favor cite como:
-@misc{bwmthor2code,
-  author = {Fabricio Tenorio, Rhenan Silva, Lucas Rocha},
-  title = {Código BWM THOR 2 para análise multicritério de ações},
-  howpublished = {\url{https://github.com/Rhenan01/bwm-thor-2}},
-  year = {2025},
-  note = {Acessado em: jul. 2025}
-}
+   ```bash
+   @misc{bwmthor2code,
+     author = {Fabricio Tenorio, Rhenan Silva, Lucas Rocha},
+     title = {Código BWM THOR 2 para análise multicritério de ações},
+     howpublished = {\url{https://github.com/Rhenan01/bwm-thor-2}},
+     year = {2025},
+     note = {Acessado em: jul. 2025}
+   }
 
 
